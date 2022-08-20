@@ -1,4 +1,5 @@
-﻿using IdentityAuthhApi.Logic.Models;
+﻿using ApiAssignment.Logic.Models;
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -25,7 +26,7 @@ namespace IdentityAuthApi.Web.Controllers
         {
             RestClient client = new RestClient("https://localhost:44353/api/Account/Login"); // localhost
             RestRequest request = new RestRequest();
-            var model = new LoginViewModel { Username = "Army", Password = "Aa@123456" };
+            var model = new LoginViewModel { UserName = "Army", Password = "Aa@123456" };
             request.AddBody(model);
 ;           // s = "Bearer *****"; // token from postman
             //request.AddHeader("Authorization", s);

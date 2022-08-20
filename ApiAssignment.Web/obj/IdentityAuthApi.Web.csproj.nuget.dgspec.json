@@ -1,20 +1,96 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthApi.Web\\IdentityAuthApi.Web.csproj": {}
+    "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Web\\IdentityAuthApi.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthApi.Web\\IdentityAuthApi.Web.csproj": {
+    "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthApi.Web\\IdentityAuthApi.Web.csproj",
-        "projectName": "IdentityAuthApi.Web",
-        "projectPath": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthApi.Web\\IdentityAuthApi.Web.csproj",
-        "packagesPath": "C:\\Users\\EGYPT_LAPTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthApi.Web\\obj\\",
+        "projectUniqueName": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj",
+        "projectName": "ApiAssignment.Data",
+        "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj",
+        "packagesPath": "C:\\Users\\youss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\EGYPT_LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\youss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj",
+        "projectName": "ApiAssignment.Logic",
+        "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj",
+        "packagesPath": "C:\\Users\\youss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\youss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +104,76 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Logic\\IdentityAuthhApi.Logic.csproj": {
-                "projectPath": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Logic\\IdentityAuthhApi.Logic.csproj"
+              "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj": {
+                "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Web\\IdentityAuthApi.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Web\\IdentityAuthApi.Web.csproj",
+        "projectName": "IdentityAuthApi.Web",
+        "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Web\\IdentityAuthApi.Web.csproj",
+        "packagesPath": "C:\\Users\\youss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\youss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj": {
+                "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj"
               }
             }
           }
@@ -69,8 +213,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,197 +225,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Data\\IdentityAuthhApi.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Data\\IdentityAuthhApi.Data.csproj",
-        "projectName": "IdentityAuthhApi.Data",
-        "projectPath": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Data\\IdentityAuthhApi.Data.csproj",
-        "packagesPath": "C:\\Users\\EGYPT_LAPTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Data\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\EGYPT_LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.28, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[108.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Logic\\IdentityAuthhApi.Logic.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Logic\\IdentityAuthhApi.Logic.csproj",
-        "projectName": "IdentityAuthhApi.Logic",
-        "projectPath": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Logic\\IdentityAuthhApi.Logic.csproj",
-        "packagesPath": "C:\\Users\\EGYPT_LAPTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Logic\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\EGYPT_LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Data\\IdentityAuthhApi.Data.csproj": {
-                "projectPath": "C:\\Users\\EGYPT_LAPTOP\\source\\repos\\IdentityAuthApi\\IdentityAuthhApi.Data\\IdentityAuthhApi.Data.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.28, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[108.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

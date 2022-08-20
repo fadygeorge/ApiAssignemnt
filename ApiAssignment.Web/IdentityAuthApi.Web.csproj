@@ -15,7 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IdentityAuthhApi.Logic\IdentityAuthhApi.Logic.csproj" />
+    <ProjectReference Include="..\ApiAssignment.Logic\ApiAssignment.Logic.csproj" />
+   
   </ItemGroup>
 
 </Project>
