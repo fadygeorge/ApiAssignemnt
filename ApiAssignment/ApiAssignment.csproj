@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApiAssignment.Data\ApiAssignment.Data.csproj" />
+    <ProjectReference Include="..\ApiAssignment.Logic\ApiAssignment.Logic.csproj" />
   </ItemGroup>
 
 

@@ -76,6 +76,78 @@
         }
       }
     },
+    "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj",
+        "projectName": "ApiAssignment.Logic",
+        "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj",
+        "packagesPath": "C:\\Users\\youss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\youss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj": {
+                "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment\\ApiAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -106,6 +178,9 @@
             "projectReferences": {
               "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj": {
                 "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj"
+              },
+              "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj": {
+                "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj"
               }
             }
           }

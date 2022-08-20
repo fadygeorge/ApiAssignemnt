@@ -2722,6 +2722,21 @@
         "runtime": {
           "bin/placeholder/ApiAssignment.Data.dll": {}
         }
+      },
+      "ApiAssignment.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ApiAssignment.Data": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
+          "RestSharp": "108.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ApiAssignment.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiAssignment.Logic.dll": {}
+        }
       }
     }
   },
@@ -8853,11 +8868,17 @@
       "type": "project",
       "path": "../ApiAssignment.Data/ApiAssignment.Data.csproj",
       "msbuildProject": "../ApiAssignment.Data/ApiAssignment.Data.csproj"
+    },
+    "ApiAssignment.Logic/1.0.0": {
+      "type": "project",
+      "path": "../ApiAssignment.Logic/ApiAssignment.Logic.csproj",
+      "msbuildProject": "../ApiAssignment.Logic/ApiAssignment.Logic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "ApiAssignment.Data >= 1.0.0",
+      "ApiAssignment.Logic >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.28",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
@@ -8902,6 +8923,9 @@
           "projectReferences": {
             "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj": {
               "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj"
+            },
+            "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj": {
+              "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj"
             }
           }
         }

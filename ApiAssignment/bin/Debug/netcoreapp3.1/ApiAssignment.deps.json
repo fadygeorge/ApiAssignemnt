@@ -32,6 +32,7 @@
       "ApiAssignment/1.0.0": {
         "dependencies": {
           "ApiAssignment.Data": "1.0.0",
+          "ApiAssignment.Logic": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.28",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.Design": "5.0.17",
@@ -2314,13 +2315,26 @@
       "ApiAssignment.Data/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "RestSharp": "108.0.1"
         },
         "runtime": {
           "ApiAssignment.Data.dll": {}
         },
         "compile": {
           "ApiAssignment.Data.dll": {}
+        }
+      },
+      "ApiAssignment.Logic/1.0.0": {
+        "dependencies": {
+          "ApiAssignment.Data": "1.0.0",
+          "RestSharp": "108.0.1"
+        },
+        "runtime": {
+          "ApiAssignment.Logic.dll": {}
+        },
+        "compile": {
+          "ApiAssignment.Logic.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -5077,6 +5091,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "ApiAssignment.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiAssignment.Logic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

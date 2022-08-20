@@ -1,6 +1,7 @@
-﻿using IdentityAuthhApi.Data;
-using IdentityAuthhApi.Logic;
-using IdentityAuthhApi.Logic.Models;
+﻿
+using ApiAssignment.Data;
+using ApiAssignment.Logic;
+using ApiAssignment.Logic.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

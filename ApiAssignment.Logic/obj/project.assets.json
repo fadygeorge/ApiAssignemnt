@@ -5936,6 +5936,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "ApiAssignment.Data >= 1.0.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
       "RestSharp >= 108.0.1"
     ]
   },
@@ -5987,6 +5988,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.17, )"
+          },
           "RestSharp": {
             "target": "Package",
             "version": "[108.0.1, )"

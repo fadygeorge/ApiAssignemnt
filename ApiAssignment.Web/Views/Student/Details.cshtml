@@ -1,4 +1,4 @@
-﻿@model IdentityAuthhApi.Logic.Models.StudentViewModel
+﻿@model ApiAssignment.Logic.Models.StudentViewModel
 
 @{
     ViewData["Title"] = "Details";
@@ -17,20 +17,20 @@
             @Html.DisplayFor(model => model.Id)
         </dd>*@
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model => model.name)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
+            @Html.DisplayFor(model => model.name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Grade)
+            @Html.DisplayNameFor(model => model.gpa)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Grade)
+            @Html.DisplayFor(model => model.gpa)
         </dd>
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
     <a asp-action="Index">Back to List</a>
 </div>

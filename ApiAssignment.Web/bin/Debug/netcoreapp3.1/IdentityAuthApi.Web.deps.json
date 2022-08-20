@@ -31,7 +31,8 @@
     ".NETCoreApp,Version=v3.1": {
       "IdentityAuthApi.Web/1.0.0": {
         "dependencies": {
-          "IdentityAuthhApi.Logic": "1.0.0",
+          "ApiAssignment.Logic": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.Design": "5.0.17",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
           "Newtonsoft.Json": "13.0.1",
@@ -317,20 +318,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.28": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.6.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "3.1.28.0",
-            "fileVersion": "3.100.2822.36402"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Cryptography.Internal/5.0.17": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -376,7 +363,6 @@
           "lib/netstandard2.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Identity.UI/5.0.17": {},
       "Microsoft.AspNetCore.Razor/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Html.Abstractions": "2.2.0"
@@ -2177,6 +2163,9 @@
       "System.Text.Encoding.CodePages/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
         }
       },
       "System.Text.Encoding.Extensions/4.3.0": {
@@ -2300,37 +2289,30 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "IdentityAuthhApi.Data/1.0.0": {
+      "ApiAssignment.Data/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.28",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
-          "Microsoft.AspNetCore.Identity.UI": "5.0.17",
-          "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "RestSharp": "108.0.1"
         },
         "runtime": {
-          "IdentityAuthhApi.Data.dll": {}
+          "ApiAssignment.Data.dll": {}
         },
         "compile": {
-          "IdentityAuthhApi.Data.dll": {}
+          "ApiAssignment.Data.dll": {}
         }
       },
-      "IdentityAuthhApi.Logic/1.0.0": {
+      "ApiAssignment.Logic/1.0.0": {
         "dependencies": {
-          "IdentityAuthhApi.Data": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.28",
+          "ApiAssignment.Data": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
-          "Microsoft.AspNetCore.Identity.UI": "5.0.17",
-          "Microsoft.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "RestSharp": "108.0.1"
         },
         "runtime": {
-          "IdentityAuthhApi.Logic.dll": {}
+          "ApiAssignment.Logic.dll": {}
         },
         "compile": {
-          "IdentityAuthhApi.Logic.dll": {}
+          "ApiAssignment.Logic.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3938,13 +3920,6 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.28": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-CJm8ONdSVt1+RMWsl0yh3OR5cDuAkU1tpWU+HgNUmom9kHMhAC4FdyqtDagtdWTfoFfS3F9UK72quCQ2kBXdJA==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.28",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.3.1.28.nupkg.sha512"
-    },
     "Microsoft.AspNetCore.Cryptography.Internal/5.0.17": {
       "type": "package",
       "serviceable": true,
@@ -3972,13 +3947,6 @@
       "sha512": "sha512-Ptdhz86gV2XCbEChGX/ji4FQpAgnN/ctaegUQVbWgExLnyEoy2go+8NkYgIfEKUXBVaIewl/HYDeIK6GACKN9Q==",
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/5.0.17",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.5.0.17.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Identity.UI/5.0.17": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-10SC96nYr86A3cqpULJYO8W56NhwNX+eTIctsYDzcU/nl53cjIT3psPRrBlF6QChI2stGj5YE2pXTcRSo/22Kg==",
-      "path": "microsoft.aspnetcore.identity.ui/5.0.17",
-      "hashPath": "microsoft.aspnetcore.identity.ui.5.0.17.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor/2.2.0": {
       "type": "package",
@@ -5086,12 +5054,12 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "IdentityAuthhApi.Data/1.0.0": {
+    "ApiAssignment.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "IdentityAuthhApi.Logic/1.0.0": {
+    "ApiAssignment.Logic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -144,3 +144,5 @@ C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment\obj\Debug\netcoreapp
 C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment\obj\Debug\netcoreapp3.1\ApiAssignment.dll
 C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment\obj\Debug\netcoreapp3.1\ApiAssignment.pdb
 C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment\obj\Debug\netcoreapp3.1\ApiAssignment.genruntimeconfig.cache
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment\bin\Debug\netcoreapp3.1\ApiAssignment.Logic.dll
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment\bin\Debug\netcoreapp3.1\ApiAssignment.Logic.pdb
