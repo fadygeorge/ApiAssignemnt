@@ -11,6 +11,7 @@ namespace IdentityAuthApi.Controllers
 {
     [Route("api/[controller]/[Action]")]
     [ApiController]
+    [Authorize]
     
     public class StudentController : ControllerBase
     {
@@ -39,7 +40,7 @@ namespace IdentityAuthApi.Controllers
             return unitofwork.Student.Get(id);
         }
 
-        //[Authorize]
+        
         public ResultViewModel Edit(StudentViewModel s)
         {
             unitofwork.Student.Edit(s);
