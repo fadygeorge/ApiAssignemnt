@@ -8,3 +8,16 @@ C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netco
 C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.csproj.CoreCompileInputs.cache
 C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.dll
 C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.pdb
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\bin\Debug\netcoreapp3.1\ApiAssignment.Data.deps.json
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\bin\Debug\netcoreapp3.1\ApiAssignment.Data.dll
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\bin\Debug\netcoreapp3.1\ApiAssignment.Data.pdb
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.csproj.AssemblyReference.cache
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.AssemblyInfoInputs.cache
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.AssemblyInfo.cs
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.csproj.CoreCompileInputs.cache
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.dll
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.pdb
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\bin\Debug\netcoreapp3.1\ApiAssignment.Data.runtimeconfig.json
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\bin\Debug\netcoreapp3.1\ApiAssignment.Data.runtimeconfig.dev.json
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Data\obj\Debug\netcoreapp3.1\ApiAssignment.Data.genruntimeconfig.cache

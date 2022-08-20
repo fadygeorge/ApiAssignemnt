@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32630.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiAssignment", "ApiAssignment\ApiAssignment.csproj", "{A6B6AD6B-BC84-4088-9307-5317B2FCB70A}"
 EndProject
@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiAssignment.Data", "ApiAs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiAssignment.Logic", "ApiAssignment.Logic\ApiAssignment.Logic.csproj", "{B84BA413-BEA0-4EC7-8287-4425F5219531}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityAuthApi.Web", "ApiAssignment.Web\IdentityAuthApi.Web.csproj", "{B5ADF8C1-7B53-4E6E-BDC1-44D18108AB0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiAssignment.Web", "ApiAssignment.Web\ApiAssignment.Web.csproj", "{B5ADF8C1-7B53-4E6E-BDC1-44D18108AB0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

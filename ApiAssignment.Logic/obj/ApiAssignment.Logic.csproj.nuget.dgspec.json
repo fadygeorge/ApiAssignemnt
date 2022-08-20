@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj": {}
+    "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj": {
+    "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj",
+        "projectUniqueName": "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj",
         "projectName": "ApiAssignment.Data",
-        "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj",
-        "packagesPath": "C:\\Users\\youss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\obj\\",
+        "projectPath": "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj",
+        "packagesPath": "C:\\Users\\EGYPT_LAPTOP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\youss\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\EGYPT_LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,6 +48,12 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[108.0.1, )"
@@ -63,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,25 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj": {
+    "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj",
+        "projectUniqueName": "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj",
         "projectName": "ApiAssignment.Logic",
-        "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj",
-        "packagesPath": "C:\\Users\\youss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Logic\\obj\\",
+        "projectPath": "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Logic\\ApiAssignment.Logic.csproj",
+        "packagesPath": "C:\\Users\\EGYPT_LAPTOP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Logic\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\youss\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\EGYPT_LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,8 +103,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj": {
-                "projectPath": "C:\\Users\\youss\\Documents\\GitHub\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj"
+              "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj": {
+                "projectPath": "C:\\Users\\EGYPT_LAPTOP\\Desktop\\ApiAssignemnt\\ApiAssignment.Data\\ApiAssignment.Data.csproj"
               }
             }
           }
@@ -135,7 +134,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -144,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

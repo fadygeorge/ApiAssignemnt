@@ -2186,9 +2186,6 @@
       "System.Text.Encoding.CodePages/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
         }
       },
       "System.Text.Encoding.Extensions/4.3.0": {
@@ -2328,6 +2325,7 @@
       "ApiAssignment.Logic/1.0.0": {
         "dependencies": {
           "ApiAssignment.Data": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "RestSharp": "108.0.1"
         },
         "runtime": {

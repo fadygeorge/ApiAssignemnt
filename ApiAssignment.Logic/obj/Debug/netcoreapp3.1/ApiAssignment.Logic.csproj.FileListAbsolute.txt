@@ -11,3 +11,16 @@ C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netc
 C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.csproj.CopyComplete
 C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.dll
 C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.pdb
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Logic.deps.json
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Logic.dll
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Logic.pdb
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Data.dll
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Data.pdb
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.csproj.AssemblyReference.cache
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.AssemblyInfoInputs.cache
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.AssemblyInfo.cs
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.csproj.CoreCompileInputs.cache
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.csproj.CopyComplete
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.dll
+C:\Users\EGYPT_LAPTOP\Desktop\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.pdb

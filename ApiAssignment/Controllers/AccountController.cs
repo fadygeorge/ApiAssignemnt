@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace ApiAssignment.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[Action]")]
     [ApiController]
     public class AccountController : ControllerBase
     {
@@ -39,7 +39,7 @@ namespace ApiAssignment.Controllers
             var result = userManager.CreateAsync(data).Result;
             if (result.Succeeded)
             {
-                userManager.AddToRoleAsync(data, "Admin");
+                //userManager.AddToRoleAsync(data, "Admin");
                 result = userManager.AddPasswordAsync(data, model.Password).Result;
                 if (result.Succeeded)
                     return "Account created successfully";

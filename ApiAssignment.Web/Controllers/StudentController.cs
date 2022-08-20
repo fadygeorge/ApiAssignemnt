@@ -13,7 +13,7 @@ namespace IdentityAuthApi.Web.Controllers
         // GET: StudentController
         public ActionResult Index()
         {
-            RestClient client = new RestClient("https://localhost:44353/api/Student/Get"); // localhost
+            RestClient client = new RestClient("https://localhost:44355/api/Student/Get"); // localhost
             RestRequest request = new RestRequest();
             string s = "Bearer " + GetToken(); // token from postman or function
             request.AddHeader("Authorization", s);
@@ -24,9 +24,9 @@ namespace IdentityAuthApi.Web.Controllers
 
         public string GetToken()
         {
-            RestClient client = new RestClient("https://localhost:44353/api/Account/Login"); // localhost
+            RestClient client = new RestClient("https://localhost:44355/api/Account/Login"); // localhost
             RestRequest request = new RestRequest();
-            var model = new LoginViewModel { UserName = "Army", Password = "Aa@123456" };
+            var model = new LoginViewModel { UserName = "Youssef", Password = "Aa@123456" };
             request.AddBody(model);
 ;           // s = "Bearer *****"; // token from postman
             //request.AddHeader("Authorization", s);
@@ -37,7 +37,7 @@ namespace IdentityAuthApi.Web.Controllers
         // GET: StudentController/Details/5
         public ActionResult Details(int id)
         {
-            RestClient client = new RestClient("https://localhost:44353/api/Student/GetS"); // localhost
+            RestClient client = new RestClient("https://localhost:44355/api/Student/GetS"); // localhost
             RestRequest request = new RestRequest(); // Config API
             request.AddParameter("id", id); // Send parameters to .Api as json
             var response = client.ExecuteGet(request);
@@ -58,7 +58,7 @@ namespace IdentityAuthApi.Web.Controllers
         {
             try
             {
-                RestClient client = new RestClient("https://localhost:44353/api/Student/Add"); // localhost
+                RestClient client = new RestClient("https://localhost:44355/api/Student/Add"); // localhost
                 RestRequest request = new RestRequest();
                 request.AddBody(model);
                 var response = client.ExecuteGet(request);
@@ -78,7 +78,7 @@ namespace IdentityAuthApi.Web.Controllers
         // GET: StudentController/Edit/5
         public ActionResult Edit(int id)
         {
-            RestClient client = new RestClient("https://localhost:44353/api/Student/GetS"); // localhost
+            RestClient client = new RestClient("https://localhost:44355/api/Student/GetS"); // localhost
             RestRequest request = new RestRequest(); // Config API
             request.AddParameter("id", id);
             var response = client.ExecuteGet(request);
@@ -93,7 +93,7 @@ namespace IdentityAuthApi.Web.Controllers
         {
             try
             {
-                RestClient client = new RestClient("https://localhost:44353/api/Student/Edit"); // localhost
+                RestClient client = new RestClient("https://localhost:44355/api/Student/Edit"); // localhost
                 RestRequest request = new RestRequest();
                 request.AddBody(model);
                 var response = client.ExecuteGet(request);
@@ -113,7 +113,7 @@ namespace IdentityAuthApi.Web.Controllers
         // GET: StudentController/Delete/5
         public ActionResult Delete(int id)
         {
-            RestClient client = new RestClient("https://localhost:44353/api/Student/GetS"); // localhost
+            RestClient client = new RestClient("https://localhost:44355/api/Student/GetS"); // localhost
             RestRequest request = new RestRequest(); // Config API
             request.AddParameter("id", id);
             var response = client.ExecuteGet(request);
@@ -128,7 +128,7 @@ namespace IdentityAuthApi.Web.Controllers
         {
             try
             {
-                RestClient client = new RestClient("https://localhost:44353/api/Student/Delete"); // localhost
+                RestClient client = new RestClient("https://localhost:44355/api/Student/Delete"); // localhost
                 RestRequest request = new RestRequest(); // Config API
                 request.AddParameter("id", id);
                 var response = client.ExecuteGet(request);
