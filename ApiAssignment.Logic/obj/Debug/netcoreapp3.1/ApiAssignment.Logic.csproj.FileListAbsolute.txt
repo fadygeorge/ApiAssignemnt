@@ -1,0 +1,13 @@
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Logic.deps.json
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Logic.dll
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Logic.pdb
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Data.dll
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\bin\Debug\netcoreapp3.1\ApiAssignment.Data.pdb
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.csproj.AssemblyReference.cache
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.AssemblyInfoInputs.cache
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.AssemblyInfo.cs
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.csproj.CoreCompileInputs.cache
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.csproj.CopyComplete
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.dll
+C:\Users\youss\Documents\GitHub\ApiAssignemnt\ApiAssignment.Logic\obj\Debug\netcoreapp3.1\ApiAssignment.Logic.pdb
