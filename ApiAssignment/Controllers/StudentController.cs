@@ -12,7 +12,7 @@ namespace IdentityAuthApi.Controllers
 {
     [Route("api/[controller]/[Action]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     
     public class StudentController : ControllerBase
     {

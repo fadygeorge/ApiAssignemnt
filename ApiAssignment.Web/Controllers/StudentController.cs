@@ -40,6 +40,8 @@ namespace IdentityAuthApi.Web.Controllers
             RestClient client = new RestClient("https://localhost:44355/api/Student/GetS"); // localhost
             RestRequest request = new RestRequest(); // Config API
             request.AddParameter("id", id); // Send parameters to .Api as json
+            string s = "Bearer " + GetToken(); // token from postman or function
+            request.AddHeader("Authorization", s);
             var response = client.ExecuteGet(request);
             var model = JsonConvert.DeserializeObject<StudentViewModel>(response.Content); // Consume response returned from API
             return View(model);
@@ -61,6 +63,8 @@ namespace IdentityAuthApi.Web.Controllers
                 RestClient client = new RestClient("https://localhost:44355/api/Student/Add"); // localhost
                 RestRequest request = new RestRequest();
                 request.AddBody(model);
+                string s = "Bearer " + GetToken(); // token from postman or function
+                request.AddHeader("Authorization", s);
                 var response = client.ExecuteGet(request);
                 var result = JsonConvert.DeserializeObject<ResultViewModel>(response.Content);
                 if (result.IsSuccess)
@@ -81,6 +85,8 @@ namespace IdentityAuthApi.Web.Controllers
             RestClient client = new RestClient("https://localhost:44355/api/Student/GetS"); // localhost
             RestRequest request = new RestRequest(); // Config API
             request.AddParameter("id", id);
+            string s = "Bearer " + GetToken(); // token from postman or function
+            request.AddHeader("Authorization", s);
             var response = client.ExecuteGet(request);
             var model = JsonConvert.DeserializeObject<StudentViewModel>(response.Content); // Consume response returned from API
             return View(model);
@@ -96,6 +102,8 @@ namespace IdentityAuthApi.Web.Controllers
                 RestClient client = new RestClient("https://localhost:44355/api/Student/Edit"); // localhost
                 RestRequest request = new RestRequest();
                 request.AddBody(model);
+                string s = "Bearer " + GetToken(); // token from postman or function
+                request.AddHeader("Authorization", s);
                 var response = client.ExecuteGet(request);
                 var result = JsonConvert.DeserializeObject<ResultViewModel>(response.Content);
                 if (result.IsSuccess)
@@ -116,6 +124,8 @@ namespace IdentityAuthApi.Web.Controllers
             RestClient client = new RestClient("https://localhost:44355/api/Student/GetS"); // localhost
             RestRequest request = new RestRequest(); // Config API
             request.AddParameter("id", id);
+            string s = "Bearer " + GetToken(); // token from postman or function
+            request.AddHeader("Authorization", s);
             var response = client.ExecuteGet(request);
             var model = JsonConvert.DeserializeObject<StudentViewModel>(response.Content); // Consume response returned from API
             return View(model);
@@ -131,6 +141,8 @@ namespace IdentityAuthApi.Web.Controllers
                 RestClient client = new RestClient("https://localhost:44355/api/Student/Delete"); // localhost
                 RestRequest request = new RestRequest(); // Config API
                 request.AddParameter("id", id);
+                string s = "Bearer " + GetToken(); // token from postman or function
+                request.AddHeader("Authorization", s);
                 var response = client.ExecuteGet(request);
                 var res = JsonConvert.DeserializeObject<ResultViewModel>(response.Content); // Consume response returned from API
                 if (res.IsSuccess)
