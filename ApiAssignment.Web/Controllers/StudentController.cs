@@ -20,6 +20,8 @@ namespace IdentityAuthApi.Web.Controllers
             var res = JsonConvert.DeserializeObject<ResultViewModel>(response.Content);
             return res.Data.ToString();
         }
+
+
         // GET: StudentController
         public ActionResult Index()
         {
