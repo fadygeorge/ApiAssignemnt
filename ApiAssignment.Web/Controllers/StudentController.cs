@@ -10,6 +10,16 @@ namespace IdentityAuthApi.Web.Controllers
 {
     public class StudentController : Controller
     {
+        public string GetToken()
+        {
+            RestClient client = new RestClient("https://localhost:44355/api/Account/Login"); // localhost
+            RestRequest request = new RestRequest();
+            var model = new LoginViewModel { UserName = "Youssef", Password = "Aa@123456" };
+            request.AddBody(model);
+            var response = client.ExecutePost(request);
+            var res = JsonConvert.DeserializeObject<ResultViewModel>(response.Content);
+            return res.Data.ToString();
+        }
         // GET: StudentController
         public ActionResult Index()
         {
@@ -22,18 +32,7 @@ namespace IdentityAuthApi.Web.Controllers
             return View(model);
         }
 
-        public string GetToken()
-        {
-            RestClient client = new RestClient("https://localhost:44355/api/Account/Login"); // localhost
-            RestRequest request = new RestRequest();
-            var model = new LoginViewModel { UserName = "Youssef", Password = "Aa@123456" };
-            request.AddBody(model);
-;           // s = "Bearer *****"; // token from postman
-            //request.AddHeader("Authorization", s);
-            var response = client.ExecutePost(request);
-            var res = JsonConvert.DeserializeObject<ResultViewModel>(response.Content);
-            return res.Data.ToString();
-        }
+        
         // GET: StudentController/Details/5
         public ActionResult Details(int id)
         {
